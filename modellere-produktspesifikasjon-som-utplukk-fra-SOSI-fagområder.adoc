@@ -1,9 +1,11 @@
-﻿= Veileder i å modellere en produktspesifikasjon som utplukk fra SOSI fagområdestandarder
+= Veileder i å modellere en produktspesifikasjon som utplukk fra SOSI fagområdestandarder
+
 Versjon 2024-09-04
 
+//repo kartverket/sosi-utplukk-fra-generell-objektkatalog
 //repo kartverket/sosi-utplukk-fra-fagområder
 
-Veilederen beskriver ei enkel løype med 29 enkle etapper som skal sikre at modellen blir i henhold til standarder. +
+Veilederen beskriver ei enkel løype med 29 enkle etapper som skal sikre at modellen blir i henhold til standard. 
 Hvis du opplever problemer med veilederen er det fint om du kan sende en tilbakemelding til +
 standardiseringssekretariatet@kartverket.no
 
@@ -36,6 +38,187 @@ include::last-inn-kopier-av-fagområder.adoc[]
 ====
 
 == Valg av subsett
+
+.Trinn 5 Lag en ny pakke for produktspesifikasjonen stereotypet «ApplicationSchema»
+[%collapsible]
+====
+include::ny-pakke-for-produktspesifikasjonen.adoc[]
+====
+
+.Trinn 6 Merk, og lag kopier av hver relevant pakke i fagområdet.
+[%collapsible]
+====
+include::lag-kopi-av-pakke.adoc[]
+====
+
+.Trinn 7 Flytt alle ønskede objekttyper, datatyper og kodelister opp i den nye pakka.
+[%collapsible]
+====
+include::flytt-objekttyper.adoc[]
+====
+
+.Trinn 8 Dra alle klassene inn i et klassediagram, eventuelt i egne diagram.
+[%collapsible]
+====
+include::klasser-inn-i-klassediagram.adoc[]
+====
+
+.Trinn 9 Fjern «topo»-assosiasjoner og lag tilsvarende restriksjoner. Lag lovlige navn på koder. Fjern unødvendige assosiasjoner, egenskaper og koder fra klassene.
+[%collapsible]
+====
+include::lag-restriksjoner.adoc[]
+====
+
+.Trinn 10 Stram eventuelt inn på multiplisitetskravene på de resterende elementene.
+[%collapsible]
+====
+include::stram-inn-multiplisitet.adoc[]
+====
+
+.Trinn 11 Lag supertype som subsett av SOSI_Fellesegenskaper eller SOSI_Objekt og ta med ønskede fellesegenskaper.
+[%collapsible]
+====
+include::lag-supertype.adoc[]
+====
+
+.Trinn 12 Legg inn at alle objekttyper arver fellesegenskaper.
+[%collapsible]
+====
+include::legg-inn-arv.adoc[]
+====
+
+
+
+== Nye elementer
+
+.Trinn 13 Legg inn nye objekttyper og egenskaper som ikke finnes i fagområdene.
+[%collapsible]
+====
+include::nye-objekttyper.adoc[]
+====
+
+.Trinn 14 Legg inn påkrevede plattformuavhengige tagged values.
+[%collapsible]
+====
+include::tagged-values.adoc[]
+====
+
+
+
+== Kobling tilbake til fagområde
+
+.Trinn 15 Dokumenter i diagram hvordan objekttypene er realisert, og hva som er nytt.
+[%collapsible]
+====
+include::dokumenter-realisering-av-objekttyper.adoc[]
+====
+
+.Trinn 16 Dokumenter i diagram realisering av fellesegenskaper fra SOSI_Objekt.
+[%collapsible]
+====
+include::dokumenter-realisering-av-fellesegenskaper.adoc[]
+====
+
+
+
+== Sluttbehandling
+
+.Trinn 17 Sjekk og re-etabler alle koblinger til korrekt datatype. Kjør modellvalidering.
+[%collapsible]
+====
+include::reetabler-koblinger.adoc[]
+====
+
+
+== Lagring av modellen
+
+.Trinn 18 Lagre den nye applikasjonsskjemapakka til et egnet register, som i SOSI-modellregisteret under SOSI-produktspesifikasjoner.
+[%collapsible]
+====
+include::lagre-pakke.adoc[]
+====
+
+
+
+== Dokumentere modellen
+
+.Trinn 19 Generer tekstlig dokumentasjon til produktspesifikasjonsdokumentet.
+[%collapsible]
+====
+include::tekstlig-dokumentasjon.adoc[]
+====
+
+.Trinn 20 Klipp andre aktuelle rapporter inn i produktspesifikasjonsdokumentet.
+[%collapsible]
+====
+include::legg-inn-i-produktspesifikasjonsdokument.adoc[]
+====
+
+
+
+== Melde inn mangler i fagområdene
+
+.Trinn 21 Meld inn til standardiseringssekretariatet behov om elementer som manglet i fagområdene, for oppdatering av fagområdestandardene i SOSI del 2.
+[%collapsible]
+====
+include::meld-inn-mangler-i-fagområder.adoc[]
+====
+
+
+== Generere SOSI-realisering og SOSI-kontrollfiler
+
+.Trinn 22 Legg inn innhold i tagged values for bl.a. SOSI_kortnavn og SOSI_navn.
+[%collapsible]
+====
+include::sosi-tagged-values.adoc[]
+====
+
+.Trinn 23 Generer SOSI-Kontrollfiler for validering av data.
+[%collapsible]
+====
+include::sosi-kontrollfiler.adoc[]
+====
+
+.Trinn 24 Generer SOSI-syntaks og klipp den inn i produktspesifikasjonsdokumentet.
+[%collapsible]
+====
+include::generer-sosi-realisering.adoc[]
+====
+
+
+
+== Generere GML-realisering
+
+.Trinn 25 Legg inn nødvendige GML-skjema-metadata som tagged values på pakka.	
+[%collapsible]
+====
+include::gml-tagged-values.adoc[]
+====
+
+.Trinn 26 Generer GML-applikasjonsskjema med ShapeChange i Enterprise Architect.
+[%collapsible]
+====
+include::generer-gml-realisering.adoc[]
+====
+
+.Trinn 27 Lag og valider eksempel på GML-datasett som følger produktspesifikasjonen.
+[%collapsible]
+====
+include::lag-gml-eksempel.adoc[]
+====
+
+.Trinn 28 Legg inn GML-applikasjonsskjema på angitt skjemaplassering.
+[%collapsible]
+====
+include::publiser-gml-applikasjonsskjema.adoc[]
+====
+
+.Trinn 29 Legg inn URI og URL til GML-applikasjonsskjema i produktspesifikasjonen.
+[%collapsible]
+====
+include::lenke-til-gml-applikasjonsskjema.adoc[]
+====
+
 
 
 
