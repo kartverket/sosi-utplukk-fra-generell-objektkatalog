@@ -1,0 +1,3 @@
+= Bestem hvilke generelle fellesegenskaper som skal benyttes
+
+Fagområdene inneholder ikke fellesegenskaper så disse må hentes fra pakker under SOSI generelle konsepter/SOSI generelle typer. (SOSI_Fellesegenskaper og SOSI_Objekt). Følg de relevante linkene i forrige punkt.

@@ -1,0 +1,10 @@
+= Last inn siste versjon av kopier av alle relevante SOSI del 2 fagområder fra SOSI modellregisteret (subversion – SVN).
+ 
+Det forutsettes her at Enterprise Architect har blitt konfigurert som beskrevet i dokumentet "Installasjon av nødvendig programvare for arbeid med SOSI-produktspesifikasjoner".
+
+Før man begynner arbeidet med en UML-modell for en produktspesifikasjon må man oppdatere sine kopier av fagområdemodellene i SOSI del 2 slik at man har tilgang til de nyeste versjonene av alle objekttyper og kodelister. +
+Man kan først hente en relativt oppdatert versjon fra SVN-serveren ved å laste ned fila fra linken +
+http://sosi.geonorge.no/modellfiler/sosi_modellregister.qea +
+ +
+Dersom denne fila er hentet på et tidligere tidspunkt kan man oppdatere innholdet ved å høyreklikke på en pakke i Project Browseren og velge Package Control og Get All Latest.
+image::./img/velg-fagområdemodeller.png[alt="X"]

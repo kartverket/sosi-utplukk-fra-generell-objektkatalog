@@ -1,0 +1,12 @@
+= Trinn 2 Etabler fullstendig oversikt og innsikt i innholdet i alle fagområder i SOSI del 2 som er relevante for produktet, og de muligheter og føringer som Geodataloven gir gjennom Inspire-modellene.
+
+Se hvilke nasjonale SOSI-fagområdestandarder som er tilgjengelige på +
+http://register.geonorge.no/standarder/sosi/del-2-generell-objektkatalog +
+eller søk med fritekstsøk på relevante termer gjennom webinnsyn i GeoNorge-portalen +
+http://objektkatalog.geonorge.no + 
+Se også hvilke nasjonale SOSI-produktspesifikasjoner som er godkjent og publisert på +
+http://sosi.geonorge.no/Produktspesifikasjoner +
+Avklar også hvilke relevante internasjonalt harmoniserte spesifikasjoner som Geodataloven pålegger at vi skal realisere +
+http://inspire.ec.europa.eu/data-specifications +
+Få oversikt over innholdet i modellregisteret via en enkel oversiktsnettside +
+http://sosi.geonorge.no/sosi-modellregister/html
