@@ -7,4 +7,5 @@ Man kan først hente en relativt oppdatert versjon fra SVN-serveren ved å laste
 http://sosi.geonorge.no/modellfiler/sosi_modellregister.qea +
  +
 Dersom denne fila er hentet på et tidligere tidspunkt kan man oppdatere innholdet ved å høyreklikke på en pakke i Project Browseren og velge Package Control og Get All Latest.
+
 image::img/velg-fagomrademodeller.png[alt="X"]
