@@ -1,5 +1,5 @@
 [discrete]
-=== Bestem hvilke generelle fellesegenskaper som skal benyttes
+=== Steg 3 Bestem hvilke generelle fellesegenskaper som skal benyttes
 
 //Steg 3 versjon 2024-09-09
 
