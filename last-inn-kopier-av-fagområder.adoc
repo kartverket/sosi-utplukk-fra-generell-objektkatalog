@@ -1,7 +1,7 @@
 [discrete]
-== Steg 4 Last inn siste versjon av kopier av alle relevante SOSI del 2 fagområder fra SOSI modellregisteret (subversion – SVN).
+== Trinn 4 Last inn siste versjon av kopier av alle relevante SOSI del 2 fagområder fra SOSI modellregisteret (subversion – SVN).
 
-//Steg 4 versjon 2024-09-09
+//Trinn 4 versjon 2024-09-09
 
 Det forutsettes her at Enterprise Architect har blitt konfigurert som beskrevet i dokumentet "Installasjon av nødvendig programvare for arbeid med SOSI-produktspesifikasjoner".
 
