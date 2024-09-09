@@ -1,6 +1,6 @@
 [discrete]
-== Steg 3 Bestem hvilke generelle fellesegenskaper som skal benyttes
+== Trinn 8  3 Bestem hvilke generelle fellesegenskaper som skal benyttes
 
-//Steg 3 versjon 2024-09-09
+//Trinn 8  3 versjon 2024-09-09
 
 Fagområdene inneholder ikke fellesegenskaper så disse må hentes fra pakker under SOSI generelle konsepter/SOSI generelle typer. (SOSI_Fellesegenskaper og SOSI_Objekt). Følg relevante linker som i forrige punkt.
