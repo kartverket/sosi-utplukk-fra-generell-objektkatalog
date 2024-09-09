@@ -1,5 +1,5 @@
 [discrete]
-== Trinn 2 Etabler fullstendig oversikt og innsikt i innholdet i alle fagområder i SOSI del 2 som er relevante for produktet, og de muligheter og føringer som Geodataloven gir gjennom Inspire-modellene.
+== Steg 2 Etabler fullstendig oversikt og innsikt i innholdet i alle fagområder i SOSI del 2 som er relevante for produktet, og de muligheter og føringer som Geodataloven gir gjennom Inspire-modellene.
 
 //Steg 2 versjon 2024-09-09
 
