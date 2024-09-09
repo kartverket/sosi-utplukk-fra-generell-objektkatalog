@@ -1,7 +1,7 @@
 [discrete]
 === Bestem klart hvilke formål produktet skal dekke, og hvilke objekttyper produktet skal inneholde
 
-//Steg 2 versjon 2024-09-09
+//Steg 1 versjon 2024-09-09
 
 Lag en tydelig beskrivelse av hvilke brukstilfeller produktet skal tilfredsstille. +
 En vil da være i stand til å teste det ferdige produktet og avgjøre om produktet oppfyller formålene. +
