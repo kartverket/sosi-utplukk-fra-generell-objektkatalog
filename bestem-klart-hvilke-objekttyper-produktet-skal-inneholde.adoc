@@ -1,5 +1,5 @@
 [discrete]
-=== Steg 1 Bestem klart hvilke formål produktet skal dekke, og hvilke objekttyper produktet skal inneholde
+== Steg 1 Bestem klart hvilke formål produktet skal dekke, og hvilke objekttyper produktet skal inneholde
 
 //Steg 1 versjon 2024-09-09
 
