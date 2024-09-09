@@ -1,7 +1,7 @@
 [discrete]
-== Steg 7 Flytt ønskede objekttyper, datatyper og kodelister opp i den nye applikasjonsskjemapakka.	
+== Trinn 7 Flytt ønskede objekttyper, datatyper og kodelister opp i den nye applikasjonsskjemapakka.	
 
-//Steg 7 versjon 2024-09-09
+//Trinn 7 versjon 2024-09-09
 
 Dra og slipp alle aktuelle klasser eller underpakker du trenger fra kopien av sin opprinnelige fagområdepakke direkte inn i applikasjonsskjemapakka. 
 
