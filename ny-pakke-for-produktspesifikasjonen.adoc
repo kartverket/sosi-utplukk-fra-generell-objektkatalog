@@ -1,6 +1,7 @@
-= Lag en ny pakke for produktspesifikasjonen stereotypet «ApplicationSchema» i SOSI-modellregister for å lagre produktspesifikasjonsmodellen
+[discrete]
+== Steg 5 Lag en ny pakke for produktspesifikasjonen stereotypet «ApplicationSchema» i SOSI-modellregister for å lagre produktspesifikasjonsmodellen
 
-Versjon 2024-09-04
+//Steg 5 versjon 2024-09-09
 
 UML-modeller for produktspesifikasjoner skal lagres under mappen "SOSI Produktspesifikasjoner" og der igjen under de respektive partenes mapper. +
 Se eksempel nedenfor.
