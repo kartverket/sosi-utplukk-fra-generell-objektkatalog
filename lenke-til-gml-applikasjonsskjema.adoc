@@ -1,0 +1,14 @@
+[discrete]
+== Trinn 29 Legg inn varig http-URI og tilsvarende URL til GML-applikasjonsskjema i produktspesifikasjonen.
+
+//Trinn 29 versjon 2024-09-12
+
+Dette legges inn i produktspesifikasjonsdokumentet under kapittel 11:
+http-URI for navnerom:	
+http://skjema.geonorge.no/SOSI/produktspesifikasjon/Havnetrafikk/5.0
+URL til GML-applikasjonsskjema: 	
+http://skjema.geonorge.no/SOSI/produktspesifikasjon/Havnetrafikk/5.0/Havnetrafikk-5.0.xsd
+URL til kodeliste: 	
+http://skjema.geonorge.no/SOSI/produktspesifikasjon/Havnetrafikk/5.0/Politidistrikt.skos.rdf
+URL til GML-eksempeldatasett: 	
+http://skjema.geonorge.no/SOSI/produktspesifikasjon/Havnetrafikk/5.0/eksempel
