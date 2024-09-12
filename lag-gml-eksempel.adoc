@@ -1,0 +1,8 @@
+[discrete]
+== Trinn 27 Legg inn et eksempel på gyldige GML data i produktspesifikasjonen.
+
+//Trinn 27 versjon 2024-09-12
+
+Det anbefales at et pedagogisk eksempeldatasett lages og valideres mot skjemaet, og til slutt legges inn under kapittel 11. GML-realisering i produktspesifikasjonsdokumentet, eller også i eget vedlegg. Slike dataeksempler bør lages tidlig i modelleringen da disse ofte vil initiere forbedringer i modellen.
+
+Kjør Script/listGMLExample og kopier resultatet i vinduet System Output til en editor som støtter utf-8.

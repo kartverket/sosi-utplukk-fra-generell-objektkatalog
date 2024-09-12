@@ -1,0 +1,34 @@
+[discrete]
+== Trinn 25 Legg inn nødvendige GML-skjema-metadata som tagged values på applikasjonsskjemapakka.
+
+//Trinn 25 versjon 2024-09-12
+
+Skriptet Scripts/realiserbarGML50 går gjennom alle aktuelle modellelementer i applikasjonsskjemapakka og sjekker at det finner alle tagged values som er påkrevde for realisering i GML (SOSI-GML versjon 5.0). 
+Navn på navnerom, versjonsnummer og skjemafil må bestemmes og ligge som tagged values i EA. Disse tagged values kan legges inn helautomatisk med forslag til verdier ved å høyreklikke på applikasjonsskjemapakka og velge Scripts/leggInnGMLformatTagger. 
+
+UML og GML benytter utf-8, og er derfor mulig å bruke de norske tegnene æøå i navnerom og skjemafiler, og unngå unødig translitterering og misforståelser. Dersom man har andre verktøy som ikke støtter utf-8 bør disse verktøyene oppgraderes til nyere versjoner, eller byttes ut med verktøy som støtter utf-8.
+
+Verdien av tagged value "targetNamespace" skal inneholde navnet på navnerommet. Disse ender vanligvis med et versjonsnummer (eks. /5.0).
+http://skjema.geonorge.no/SOSI/produktspesifikasjon/Havnetrafikk/5.0
+
+Verdien av tagged value "version" skal inneholde detaljert versjonsinformasjon. 
+Merk at dette detaljerte versjonsnummeret (eks. "5.0.0beta5") kun vil ligge inne i skjemafila. Det bør likevel henge logisk tett sammen med hovedversjonsnavnet som er siste ledd i navneromsnavnet (/5.0).
+
+Verdien av tagged value "xmlns" er en lokal forkortelse for navnerommet i GML-applikasjonsskjemaet, og alle bør benytte "app".
+
+Verdien av tagged value "xsdDocument" skal inneholde filnavnet på skjemafila.
+
+Verdien av tagged value "xsdEncodingRule" skal være "sosi50" for modeller etter 5.0-regler, eller "sosi" for eldre modeller. Dette regelsettet inneholder en nasjonal utvidelse av standardencodingen (som angis med "iso19136_2007").
+
+Navnet på navnerommet skal også benyttes som sti til skjemaplasseringen, så skjemafila skal ligge tilgjengelig der, for eksempel: http://skjema.geonorge.no/SOSI/produktspesifikasjon/Havnetrafikk/5.0/ Havnetrafikk-5.0.xsd 
+og eventuelle eksternt forvaltede kodelister skal ligge tilgjengelig på samme sted, for eksempel: http://skjema.geonorge.no/SOSI/produktspesifikasjon/Havnetrafikk/5.0/Sjørestriksjon.xml
+
+Dersom eksternt forvaltede kodelister skal benyttes i GML så må disse kodelistene merkes spesielt i modellen, med en tagged value "asDictionary" med verdien "true" og en tagged value "codeList" med verdi som er stien til der den autoritative kodelista skal ligge. (codeSpace) Dette bør også dokumenteres eksplisitt i produktspesifikasjonsdokumentet. Det er vanlig å angi full sti pluss kodelistenavnet, men ikke angi filtype (.gml for GML eller .rdf for SKOS).
+Eksempel på fragment fra ei GML-datafil med kode fra en gml:Dictionary:
+
+[code]
+<kommunenummer codeSpace=
+"http://skjema.geonorge.no/SOSI/produktspesifikasjon/
+FKB-Servitutt/4.6/Kommunenummer">0612</kommunenummer>
+
+

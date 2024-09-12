@@ -1,0 +1,7 @@
+[discrete]
+== Trinn 21 Meld inn til standardiseringssekretariatet om behov om nye objekttyper eller modellelementer som mangler i fagområdene, for bedre å kunne oppdatere SOSI generell objektaktalog.	
+
+//Trinn 21 versjon 2024-09-12
+
+
+Dersom det ble behov for å legge inn nye objekttyper eller andre nye modellelementer i en eksisterende objekttype, eller dersom feil ble oppdaget må det startes en etterprosess med å tilbakeføre disse endringene til standardene for de generelle fagområdene i SOSI del 2. Dette meldes til mailto:standardiseringssekretariatet@kartverket.no

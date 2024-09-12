@@ -1,0 +1,10 @@
+[discrete]
+== Trinn 20 Klipp alle aktuelle rapporter inn i produktspesifikasjonsdokumentet.
+
+//Trinn 20 versjon 2024-09-12
+
+
+Lim inn hele den genererte fila som informasjonsmodell under kapittel 5 i produktspesifikasjonen. 
+Lesbarheten av produktspesifikasjonen vil forbedres vesentlig dersom en i siste iterasjonsrunde redigerer kapittel 5 i dokumentet manuelt og legger inn informative figurer og bilder som forklarer modellelementene ytterligere.
+Kvalitetssikring av produktspesifikasjonsdokumentet bør avtalefestes. 
+Dette kan avtales med Kartverket ved epost til post@norgedigitalt.no merket SOSI-produktspesifikasjon.
