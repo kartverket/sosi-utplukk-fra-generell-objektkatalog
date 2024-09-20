@@ -3,6 +3,8 @@
 
 //Trinn 19 versjon 2024-09-12
 
+[TIP]
+Hvis du bruker AsciiDoc løypa, se https://www.geonorge.no/globalassets/geonorge2/standardisering/veiledere/asciidocveileder.html[Veileder for bruk av AsciiDoc til SOSI standarder og produktspesifikasjoner].
 
 Dokumentasjonsmalen er lagret i fila SOSI_modellregister_JET40.eap. Den kan også lastes ned fra kartverket.no. Beskrivelse av hvordan disse filene er laget ligger i installasjonsveiledningen.
 Generer word-dokument ved å høyreklikke på applikasjonsskjemapakka i prosjektbrowseren og velge "Documentation -> Generate Documentation":
