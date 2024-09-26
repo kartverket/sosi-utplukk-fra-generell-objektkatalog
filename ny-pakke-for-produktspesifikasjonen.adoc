@@ -9,7 +9,9 @@ Se eksempel nedenfor.
 image::img/ny-pakke.png[]
 
 Dersom du starter arbeidet med en ny produktspesifikasjons-UML-modell skal du gå fram slik:
+
 . I tilfellet at det ikke finnes ei pakke med navnet på din etat/ditt institutt ta først kontakt med Kartverket som vil legge inn etaten. (mailto:standardiseringssekretariatet@kartverket.no).
++
 . Sjekk ut aktuell pakke under "SOSI Produktspesifikasjoner/DinEtat" (og eventuelt "/DittTema". Les mer om Check Out i installasjonsveiledningen).
 +
 image::img/sjekk-ut.png[]
