@@ -1,0 +1,37 @@
+# nonk8s
+apiVersion: "backstage.io/v1alpha1"
+kind: "Component"
+metadata:
+  name: "sosi-utplukk-fra-generell-objektkatalog"
+  tags:
+  - "public"
+spec:
+  type: "documentation"
+  lifecycle: "production"
+  owner: "standardisering"
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Group"
+metadata:
+  name: "security_champion_sosi-utplukk-fra-generell-objektkatalog"
+  title: "Security Champion sosi-utplukk-fra-generell-objektkatalog"
+spec:
+  type: "security_champion"
+  parent: "it_security_champions"
+  members:
+  - "toreJohnsen"
+  children:
+  - "resource:sosi-utplukk-fra-generell-objektkatalog"
+---
+apiVersion: "backstage.io/v1alpha1"
+kind: "Resource"
+metadata:
+  name: "sosi-utplukk-fra-generell-objektkatalog"
+  links:
+  - url: "https://github.com/kartverket/sosi-utplukk-fra-generell-objektkatalog"
+    title: "sosi-utplukk-fra-generell-objektkatalog på GitHub"
+spec:
+  type: "repo"
+  owner: "security_champion_sosi-utplukk-fra-generell-objektkatalog"
+  dependencyOf:
+  - "component:sosi-utplukk-fra-generell-objektkatalog"
